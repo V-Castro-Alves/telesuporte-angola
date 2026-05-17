@@ -4,7 +4,7 @@ Esta é uma solução inteligente para call centers que utiliza IA para transcre
 
 ## 🚀 Funcionalidades
 - **Transcrição de Alta Precisão:** Converte áudio em texto usando o modelo Whisper (via `faster-whisper`).
-- **Análise Inteligente (Gemini 1.5 Flash):** 
+- **Análise Inteligente (Gemini 3.1 Flash Lite):** 
     - **Sumarização:** Resumo automático e conciso da chamada.
     - **Classificação:** Categorização automática (Reclamação, Dúvida, Elogio, Cancelamento).
     - **Análise de Sentimento:** Identificação do tom predominante (Positivo, Neutro, Negativo).
@@ -41,7 +41,7 @@ Esta é uma solução inteligente para call centers que utiliza IA para transcre
 2. Edite o arquivo `.env` e insira sua chave de API:
    ```env
    GOOGLE_API_KEY=sua_chave_aqui
-   MODEL_NAME=gemini-1.5-flash
+   MODEL_NAME=gemini-3.1-flash-lite
    ```
 
 ## 🚦 Como Executar
