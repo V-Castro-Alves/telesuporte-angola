@@ -34,9 +34,9 @@ Esta é uma solução inteligente para call centers que utiliza IA para transcre
 
 ## ⚙️ Configuração
 
-1. Crie um arquivo `.env` na raiz do projeto (use o `.env.example` como base):
+1. Crie um arquivo `.env` na raiz do projeto:
    ```bash
-   cp .env.example .env
+   cp .env .env
    ```
 2. Edite o arquivo `.env` e insira sua chave de API:
    ```env
@@ -73,6 +73,3 @@ python test_api.py process caminho/do/audio.mp3
 # Para fazer uma pergunta ao sistema
 python test_api.py search "Qual o sentimento geral das chamadas?"
 ```
-
----
-*Desenvolvido para TeleSupport Angola - Maio 2026*
